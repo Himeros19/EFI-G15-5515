@@ -36,6 +36,8 @@ Using PropperTree or other plist file editing software, disable the Kexts:
 * VoodooPS2Controller
 * VoodooI2CSynaptics
 
+I recommend that you pass the '-v' flag in the boot-args, so you can see the installation process and if any errors occurred, note, when I installed there were some errors, including some that took a long time to exit, this is normal, be patient , however if you see that you haven't left a line for more than 25 minutes, then something has probably gone wrong.
+
 Restart the macOS installation.
 
 After installation you will need the peripherals, edit the config.plist again enabling the kexts that you disabled in the previous step.
